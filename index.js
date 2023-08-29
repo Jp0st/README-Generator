@@ -1,6 +1,48 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+
+const generateREADME = ({ title, description, install, usage, license, contributors, tests, github, email }) =>
+`
+# ${title}
+
+## Description
+
+${description}
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+${install}
+
+## Usage
+
+${usage}. Access the repo at github.com/${github}/${title}.
+If you have any further questions feel free to email me at : ${email}
+
+## Credits
+
+${contributors}
+
+## License
+
+${license} license.
+For more information please refer to the license in the repo.
+
+---
+
+## Tests
+
+${tests}
+  
+`;
+
 inquirer
     .prompt([
         {
@@ -50,6 +92,9 @@ inquirer
             message: 'Please enter your email: ',
         }
     ])
-    .then((responses) => {
-        console.log(responses);
-      });
+    .then((answers) => {
+        const pageContent = generateREADME(answers);
+        fs.writeFile('README.md', pageContent, (err) =>
+      err ? console.log(err) : console.log('Successfully created README!')
+    );
+});
