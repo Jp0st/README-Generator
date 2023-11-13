@@ -21,7 +21,9 @@ Clone the repository and install the packages using 'npm i'.
 
 The use this project you first need to go about the installation steps then open up the integrated terminal by right clicking on the index.js file located within the folder.  You then type in the following command : 'node index.js' . From there its as easy as answering the questions provided in the terminal and they will be auto filled into the ReadMe file generated.  
 
-[![Watch the video](https://drive.google.com/file/d/1PMOalMcSvXOmMXkF7xcYxnU5Mt0ZFnPo/view?usp=drive_link)]
+[Untitled_ Nov 13, 2023 4_42 PM.webm](https://github.com/Jp0st/README-Generator/assets/108998647/36321030-8b3a-4e3e-a74c-594ab2eb2830)
+
+https://drive.google.com/file/d/1PMOalMcSvXOmMXkF7xcYxnU5Mt0ZFnPo/view?usp=drive_link
 
 ## Credits
 
