@@ -3,7 +3,7 @@
 
 ## Description
 
-A automated form to fill out that will generate your readme for you
+I created an form fillable ReadMe generator for a developer who wants a quick and easy way to generate their newest ReadMe file.
 
 ## Table of Contents
 
@@ -15,16 +15,15 @@ A automated form to fill out that will generate your readme for you
 
 ## Installation
 
-Step
+Clone the repository and install the packages using 'npm i'.
 
 ## Usage
 
-Download, install, run. Access the repo at github.com/Jp0st/ReadMe Generator.
-If you have any further questions feel free to email me at : Jpost2010@gmail.com
+The use this project you first need to go about the installation stepsm then open up the integrated terminal by right clicking on the index.js file located within the folder.  You then type in the following command : 'node index.js' . From there its as easy as answering the questions provided in the terminal and they will be auto filled into the ReadMe file generated.  
 
 ## Credits
 
-Me Myself I
+Rutgers Full Stack Web Development Bootcamp provided the starter code for this project.
 
 ## License
 
@@ -36,4 +35,11 @@ For more information please refer to the license in the repo.
 ## Tests
 
 N/A
+
+## Questions
+
+If you have any questions feel free to reach out to me at:
+
+Github : Jp0st
+Email: Jpost2010@gmail.com
   
